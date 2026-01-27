@@ -1,9 +1,12 @@
 {
+  "homepage": "https://cableyesto.github.io/react-project",
   "name": "dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
