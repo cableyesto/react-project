@@ -9,6 +9,6 @@ export default defineConfig({
   },
   base: '/react-project/',
   build: {
-    outDir: 'public',
+    outDir: 'dist',
   }
 })
